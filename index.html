@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
     <title>Kaushal Sahu</title>
@@ -12,22 +12,110 @@
     <aside>
         <nav>
             <img src="profile.jpg" alt="">
-            <a href=""><i class="material-icons md-36">home</i>
+            <a href="#home"><i class="material-icons md-36">home</i>
                 <p>Home</p>
             </a>
 
-            <a href=""><i class="material-icons md-36">person</i>
+            <a href="#about"><i class="material-icons md-36">person</i>
                 <p>About</p>
             </a>
 
-            <a href=""><i class="material-icons md-36">image</i>
+            <a href="#folio"><i class="material-icons md-36">image</i>
                 <p>Folio</p>
             </a>
 
-            <a href=""><i class="material-icons md-36">mail</i>
+            <a href="#contact"><i class="material-icons md-36">mail</i>
                 <p>Contact</p>
             </a>
         </nav>
     </aside>
+
+    <nav class="mobile-nav">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#folio">Folio</a>
+        <a href="#contact">Contact</a>
+
+
+    </nav>
+
+    <main>
+
+        <header class="home" id="home"><br><br>
+            <h1>I'm Kaushal Sahu</h1>
+            <h5>Web Developer // Passionate Coder</h5>
+            <img src="profile.jpg" alt="">
+
+
+        </header>
+
+
+    </main>
+
+    <section class="about" id='about'>
+        <h2>About me</h2>
+        <p>
+            <span>Hello, I'm Kaushal!</span> I'm a aspiring Coder and Developer,life long learner, and ready for new opportunities.
+            A bit about me, I love music, playing batminton and all things related to technologies.
+        </p>
+
+        <h3>My Skills</h3>
+        <p>C</p>
+        <div class="container">
+            <div class="skills C">95%</div>
+        </div>
+
+        <p>Java</p>
+        <div class="container">
+            <div class="skills Java">90%</div>
+        </div>
+
+        <p>C++</p>
+        <div class="container">
+            <div class="skills C++">85%</div>
+        </div>
+         
+    </section>
+
+    <section class="folio" id="">
+
+        <h2>Folio</h2>
+
+        <div class="row-halves"></div>
+            <div class="col">
+                <img src="profile.jpg" alt="">
+                <h3>Study</h3>
+                <p>
+                    Currently I'm a first year Post Grad at Indian Institue of Technolgy, Allahabad
+                </p>
+            </div>
+
+            <div class="col">
+                <img src="profile.jpg" alt="">
+                <h3>Study</h3>
+                <p>
+                    Currently I'm a first year Post Grad at Indian Institue of Technolgy, Allahabad
+                </p>
+            </div>
+
+    </section>
+
+    <section class="contact" id="contact"></section>
+
+    <h2>Contact</h2>
+    <div class="container">
+        <form action="">
+            <label for="name">Name</label>
+            <intput type="text" id="name" name="name">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+                <label for="email">Message</label>
+                <textarea name="message" id="message" style="height:200px"></textarea>
+                <input type="submit" value="message">
+
+
+        </form>
+    </div>
 </body>
 </html>
