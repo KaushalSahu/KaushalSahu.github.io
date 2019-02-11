@@ -117,6 +117,8 @@
     .about,
     .folio,
     .contact{
+        margin-left: 15%;
+        margin-right: 10%;
         line-height: 1.5em;
         letter-spacing: 1px;
         font-weight: 300;
@@ -205,7 +207,7 @@
         resize: vertical;
         color: #b2b2b2;
     }
-    form input[type:"text"]:focus,
+    form input[type="text"]:focus,
     textarea:focus{
         outline:none;
         border: 1px solid #009688;
@@ -216,7 +218,7 @@
         text-transform: uppercase;
         padding: 12px 20px;
         border: 1px solid #222;
-        coursor: pointer;
+        cursor: pointer;
         transition: all 0.35s;
     }
     input[type="submit"]{
@@ -261,7 +263,7 @@
         font-size: 0.75em;
         text-align: center;
     }
-    @media (max-width 768px){
+    @media (max-width: 768px){
         .row-halves{
             display: block;
         }
@@ -270,7 +272,7 @@
             margin:0 0 10px 0;
         }
     }
-    @media (max-width 601px){
+    @media (max-width: 601px){
         aside{
             display: none;
         }
@@ -414,6 +416,22 @@
                     Currently I'm a first year Post Grad at Indian Institue of Technolgy, Allahabad
                 </p>
             </div>
+            <div class="row-halves"></div>
+            <div class="col">
+                <img src="profile.jpg" alt="">
+                <hf3>Study</h3>
+                <p>
+                    Currently I'm a first year Post Grad at Indian Institue of Technolgy, Allahabad
+                </p>
+            </div>
+
+            <div class="col">
+                <img src="profile.jpg" alt="">
+                <h3>Mobile</h3>
+                <p>
+                    Currently I'm a first year Post Grad at Indian Institue of Technolgy, Allahabad
+                </p>
+            </div>
 
     </section>
 
@@ -423,11 +441,13 @@
         <form action="">
             <label for="name">Name</label>
             <intput type="text" id="name" name="name">
-                <label for="email">E-mail</label>
-                <input type="text" id="email" name="email">
-                <label for="email">Message</label>
-                <textarea name="message" id="message" style="height:200px"></textarea>
-                <input type="submit" value="message">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" style="height:200px"></textarea>
+            <input type="submit" value="message">
         </form>
     </div>
 </section>
